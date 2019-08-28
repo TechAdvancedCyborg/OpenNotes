@@ -8,3 +8,13 @@ D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.csproj.
 D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.csproj.CoreCompileInputs.cache
 D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.exe
 D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.pdb
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\bin\Debug\OpenNotes.exe.config
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\bin\Debug\OpenNotes.exe
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\bin\Debug\OpenNotes.pdb
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.csprojAssemblyReference.cache
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.Form1.resources
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.Properties.Resources.resources
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.csproj.GenerateResource.cache
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.csproj.CoreCompileInputs.cache
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.exe
+D:\Elsacoding\Projects\OpenNotes\OpenNotes\OpenNotes\OpenNotes\obj\Debug\OpenNotes.pdb
