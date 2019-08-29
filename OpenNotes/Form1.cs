@@ -14,12 +14,13 @@ namespace OpenNotes
     
     public partial class Form1 : Form
     {
-        Int32 unixTimestamp;
+        DateTime SaveTime;
         private int counter;
         Timer t = new Timer();
         bool firstchange = true;
         System.IO.StreamWriter writer;
-        string savelocation = "C:\\Notes\\lastnote.txt";
+        string savelocationa;
+        public string savelocation = "C:\\Notes\\";
 
         public Form1()
         {
@@ -47,7 +48,7 @@ namespace OpenNotes
         }
         private static void EnsureDirectoryExists(string filePath)
         {
-            FileInfo fi = new FileInfo(filePath);
+             FileInfo fi = new FileInfo(filePath);
             if (!fi.Directory.Exists)
             {
                 System.IO.Directory.CreateDirectory(fi.DirectoryName);
@@ -60,16 +61,26 @@ namespace OpenNotes
             {
                 Console.WriteLine("FirstChange");
                 firstchange = false;
-                EnsureDirectoryExists(savelocation);
-            }
+                
 
+    }
+            if (firstchange == false) {
+                try
+                {
+                    File.Delete(savelocationa);
+                }
+                catch { }
+                }
 
-            System.IO.StreamWriter writer = new System.IO.StreamWriter(savelocation); //open the file for writing.
+            savelocationa = Path.Combine(savelocation,String.Join("",DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss"),".txt"));
+            Console.WriteLine(savelocationa);
+            EnsureDirectoryExists(savelocationa);
+            
+            System.IO.StreamWriter writer = new System.IO.StreamWriter(savelocationa); //open the file for writing.
             writer.Write(textBox1.Text); //write the current date to the file. change this with your date or something.
             writer.Close(); //remember to close the file again.
             writer.Dispose();
             Console.WriteLine("TextChanged");
-            Console.WriteLine(unixTimestamp);
         }
         
         

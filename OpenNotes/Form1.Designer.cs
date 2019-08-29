@@ -36,7 +36,7 @@
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(60)))));
             this.textBox1.Font = new System.Drawing.Font("Consolas", 8.25F);
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(0, -1);
+            this.textBox1.Location = new System.Drawing.Point(1, -1);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(384, 364);
@@ -45,8 +45,10 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(384, 361);
+            this.AllowDrop = true;
+            this.ClientSize = new System.Drawing.Size(385, 363);
             this.Controls.Add(this.textBox1);
+            this.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.Name = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -55,8 +57,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        
         private System.Windows.Forms.TextBox textBox1;
     }
 }
