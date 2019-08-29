@@ -19,7 +19,7 @@ namespace OpenNotes
         Timer t = new Timer();
         bool firstchange = true;
         System.IO.StreamWriter writer;
-        string savelocation = "C:\\tmp\\lastnote.txt";
+        string savelocation = "C:\\Notes\\lastnote.txt";
 
         public Form1()
         {
